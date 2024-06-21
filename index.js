@@ -1,7 +1,5 @@
-/* How to accept user input ?
-Easy way with window promt
-
-*/
-
-let userName =window.prompt("What's your name?");
-console.log(userName);
+let username;
+        document.getElementById("myButton").onclick = function(){
+            username = document.getElementById("myText").value;
+            console.log(username);
+        }
